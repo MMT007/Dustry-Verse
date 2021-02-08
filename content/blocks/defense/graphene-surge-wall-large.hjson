@@ -1,0 +1,17 @@
+name: Large Graphene surge wall
+description: Reinforced Surge wall with graphene for bigger arc return. 2x2.
+type: Wall
+health: 7500
+size: 2
+lightningChance: 0.15
+lightningDamage: 35
+lightningLength: 15
+buildCostMultiplier: 2
+destructible: true
+requirements: [
+  surge-alloy/48
+  thorium/32
+  graphene/24
+]
+category: defense
+research: graphene-surge-wall

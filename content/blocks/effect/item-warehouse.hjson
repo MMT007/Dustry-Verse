@@ -1,0 +1,16 @@
+type: StorageBlock
+name: Item Warehouse
+description: The ultimate storage block,but with a really long build time.
+itemCapacity: 32000
+hasItems: true
+health: 5000
+size: 5
+destructible: true
+buildCostMultiplier: 1.5
+requirements: [
+  titanium/2400
+  thorium/1600
+  graphene/800
+]
+category: effect
+research: vault

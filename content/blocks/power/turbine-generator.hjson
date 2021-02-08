@@ -1,0 +1,25 @@
+type: BurnerGenerator
+description: Better steam gen. Extremely efficient.
+name: Turbine Generator
+size: 3
+buildCostMultiplier: 0.7
+health: 900
+itemCapacity: 30
+itemDuration: 900
+randomlyExplode: false
+powerProduction: 25
+consumes: {
+liquid: {
+    liquid: water
+    amount: 0.15
+  }
+}
+requirements:[
+	graphene/225
+	silicon/200
+	graphite/150
+	lead/300
+	thorium/75
+]
+category: power
+research: steam-generator

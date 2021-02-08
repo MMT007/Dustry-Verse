@@ -1,0 +1,12 @@
+name: Steel wall
+description: A good wall for early-game.
+type: Wall
+health: 625
+size: 1
+buildCostMultiplier: 2
+destructible: true
+requirements: [
+	steel/7
+]
+category: defense
+research: titanium-wall-large

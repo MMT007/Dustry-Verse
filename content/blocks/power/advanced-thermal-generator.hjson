@@ -1,0 +1,17 @@
+type: ThermalGenerator
+name: Advanced Thermal Generator
+description: An endgame thermal generator with better efficiency.
+health: 750
+size: 3
+generateEffect: melting
+powerProduction: 6
+requirements: [
+  metaglass/225
+  copper/185
+  silicon/165
+  thorium/125
+  graphite/100
+  invar/60
+]
+category: power
+research: thermal-generator

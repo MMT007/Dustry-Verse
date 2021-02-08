@@ -1,0 +1,34 @@
+name: Advanced Oil Extractor
+description: "Smaller version of the oil Extractor. Has much more pumping force. "
+type: Fracker
+itemCapacity: 10
+health: 1800
+size: 2
+liquidCapacity: 72
+baseExplosiveness: 5
+rotateSpeed: 2.5
+hasPower: true
+updateEffect: oily
+updateEffectChance: 0.0625
+pumpAmount: 0.4
+attribute: oil
+result: oil
+itemUseTime: 600
+baseEfficiency: 0.25
+consumes: {
+  power:10
+   items: {
+    items: [
+      sand/1
+    ]
+  }
+}
+requirements: [
+  silicon/120
+  copper/175
+  thorium/150
+  steel/120
+  invar/75
+]
+category: production
+research: oil-extractor

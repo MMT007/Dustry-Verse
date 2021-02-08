@@ -1,0 +1,33 @@
+name: Industrial Cultivator
+description: An efficient cultivator, making spores at a bigger rate.
+type: Cultivator
+health: 650
+size: 3
+buildCostMultiplier: 0.6
+itemCapacity: 45
+liquidCapacity: 45
+outputItem: spore-pod/3
+hasItems: true
+hasLiquids: true
+floating: true
+hasPower: true
+craftTime: 60
+attribute: spores
+consumes: {
+  power: 3.5
+  liquid: {
+    liquid: water
+    amount: 0.3
+    booster: false
+  optional: false
+  }
+}
+requirements: [
+  copper/210
+  lead/325
+  silicon/185
+  graphene/150
+  thorium/125
+]
+category: production
+research: cultivator

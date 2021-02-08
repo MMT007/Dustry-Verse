@@ -1,0 +1,4 @@
+name: "Iron Ingot"
+description: A more usable way of iron. Made for alloys.
+cost: 1.5
+research: iron

@@ -1,0 +1,5 @@
+name: "Refined Alloy"
+description: A very hard and tough alloy. used for other alloys and building.
+cost: 3
+alwaysUnlocked: false
+research: invar

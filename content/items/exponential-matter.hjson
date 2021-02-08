@@ -1,0 +1,6 @@
+name: "Exponential matter"
+description: A form of matter that got some weird but good properties... unstable.
+cost: 4
+alwaysUnlocked: false
+radioactivity: 3
+research: refined-alloy

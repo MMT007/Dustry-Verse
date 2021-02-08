@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: Tetra-press
+description: Compresses coal to an even more efficient state.
+itemCapacity: 42
+health: 750
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 40
+buildCostMultiplier: 0.65
+craftEffect: steam
+updateEffect: pulverize
+updateEffectChance: 0.05
+consumes: {
+  power: 2.5
+  items: {
+    items: [
+      coal/5
+    ]
+    }
+    liquid: {
+    liquid: water
+    amount: 0.1
+  }
+  }
+requirements: [
+  lead/200
+  copper/215
+  graphite/200
+  graphene/100
+  silicon/150
+  thorium/50
+]
+category: crafting
+outputItem: graphite/6

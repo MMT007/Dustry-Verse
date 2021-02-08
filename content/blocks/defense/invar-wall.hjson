@@ -1,0 +1,12 @@
+name: Invar wall
+description: A tough wall with more health than surge. 
+type: Wall
+size: 1
+health: 1000
+buildCostMultiplier: 2
+destructible: true
+requirements: [
+	invar/8
+]
+category: defense
+research: thorium-wall-large

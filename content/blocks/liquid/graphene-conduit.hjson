@@ -1,0 +1,18 @@
+type: ArmoredConduit
+health: 750
+name: Graphene Conduit
+description: A much better and plated conduit.Almost leak-proof.
+solid: true
+floating: true
+liquidCapacity: 25
+liquidPressure: 2
+leakResistance: 75
+buildCostMultiplier: 0.5
+requirements: [
+  metaglass/4
+  thorium/4
+  silicon/1
+  graphene/2
+]
+category: liquid
+research: plated-conduit

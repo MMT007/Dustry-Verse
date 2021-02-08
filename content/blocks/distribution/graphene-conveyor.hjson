@@ -1,0 +1,15 @@
+type: Conveyor
+health: 550
+name: Graphene Conveyor
+solid: true
+description: A really fast conveyor, reinforced with steel.
+requirements: [
+  steel/3
+  copper/2
+  graphene/1
+  iron/1
+]
+category: distribution
+speed: 0.24f
+displayedSpeed: 30f
+research: armored-conveyor

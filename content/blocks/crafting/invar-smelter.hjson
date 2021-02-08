@@ -1,0 +1,34 @@
+type: GenericSmelter
+name: Invar smelter
+description: An advanced smelter able to get to temperatures of smelting invar.
+itemCapacity: 40
+health: 350
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 80
+buildCostMultiplier: 0.75
+craftEffect: steam
+updateEffect: pulverize
+updateEffectChance: 0.05
+consumes: {
+  power: 3
+  items: {
+    items: [
+      iron/3
+      nickel/2
+    ]
+  }
+}
+
+requirements: [
+  lead/200
+  copper/215
+  graphite/200
+  nickel/100
+  silicon/150
+  thorium/50
+]
+category: crafting
+outputItem: invar/2
+research: steel-forge

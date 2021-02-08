@@ -1,0 +1,15 @@
+type: SolarGenerator
+name: Graphene Solar Generator
+description: An endgame solar generator with the properties of graphene.
+health: 1050
+size: 2
+powerProduction: 5.5
+requirements: [
+  metaglass/100
+  plastanium/65
+  thorium/25
+  graphite/150
+  graphene/50
+]
+category: power
+research: solar-panel-large

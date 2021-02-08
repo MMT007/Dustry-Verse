@@ -1,0 +1,31 @@
+type: OverdriveProjector
+localizedName: Graphene Overdrive Stereopticon
+description: A overdrive projector with a very big range. More boost than the original.
+health: 850
+range: 240
+phaseRangeBoost: 140
+speedBoost: 1.75
+speedBoostPhase: 1
+hasPower: true
+useTime: 1200
+baseColor: 6b719e
+phaseColor: 857fa2
+consumes: {
+  items: {
+    items: [
+      graphene/1
+    ]
+    booster: true
+    optional: true
+  }
+  power: 10
+}
+category: effect
+requirements: [
+  graphene/235
+  lead/250
+  titanium/185
+  silicon/160
+  plastanium/120
+]
+research: overdrive-projector

@@ -1,0 +1,20 @@
+name: Exponential Alloy wall
+description: A wall that bends reality. Has all wall effects. 
+type: Wall
+size: 1
+health: 9200
+lightningChance: 0.25
+lightningDamage: 60
+lightningLength: 23
+insulated: true
+absorbLasers: true
+chanceDeflect: 99
+buildCostMultiplier: 2
+destructible: true
+requirements: [
+  exponential-alloy/10
+  exponential-matter/8
+  phase-fabric/6
+]
+category: defense
+research: surge-wall-large

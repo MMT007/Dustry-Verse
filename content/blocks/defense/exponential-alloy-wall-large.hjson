@@ -1,0 +1,17 @@
+name: Large Exponential Alloy wall
+description: A wall that bends reality. 2x2.
+type: Wall
+size: 2
+health: 36800
+insulated: true
+absorbLasers: true
+chanceDeflect: 99
+buildCostMultiplier: 2
+destructible: true
+requirements: [
+  exponential-alloy/40
+  exponential-matter/32
+  phase-fabric/24
+]
+category: defense
+research: exponential-alloy-wall

@@ -1,0 +1,22 @@
+type: PointDefenseTurret
+name: Metamer
+health: 3200
+descrpition: a thicc and upgraded segment.
+reloadTime: 6
+bulletDamage: 30
+shootLength: 6
+range: 180
+hasPower: true
+size: 3
+retargetTime: 3
+category: turret
+requirements: [
+titanium/450
+silicon/325
+thorium/250
+exponential-matter/40
+] 
+research: segment
+consumes: {
+  power: 6
+} 

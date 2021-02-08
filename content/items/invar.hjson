@@ -1,0 +1,6 @@
+name: "Invar"
+description: A hard and tough alloy. used for other alloys and building. Makes very good ammo!
+cost: 2
+alwaysUnlocked: false
+color: c7c0c0
+research: steel

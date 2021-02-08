@@ -1,0 +1,18 @@
+name: Ultimate Wall
+description: "A wall that [red]destroys []reality."
+type: Wall
+size: 3
+health: 90000
+insulated: true
+absorbLasers: true
+chanceDeflect: 420
+buildCostMultiplier: 5
+destructible: true
+requirements: [
+  exponential-alloy/180
+  exponential-matter/96
+  phase-fabric/72
+  graphene/36
+]
+category: defense
+research: surge-wall-large

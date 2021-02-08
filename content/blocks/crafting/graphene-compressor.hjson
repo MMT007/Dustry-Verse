@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: Graphene Compressor
+description: "Compresses graphite to a point where the sheet of carbon is a few atoms thin. [gray] (And it's burning lol)"
+itemCapacity: 80
+health: 780
+size: 4
+hasPower: true
+hasItems: true
+craftTime: 270
+buildCostMultiplier: 0.75
+craftEffect: steam
+updateEffect: pulverizeSmall
+updateEffectChance: 0.05
+consumes: {
+  power: 55
+  items: {
+    items: [
+      graphite/5
+    ]
+    }
+  }
+requirements: [
+  lead/250
+  graphite/250
+  metaglass/100
+  silicon/125
+  thorium/175
+  copper/200
+]
+category: crafting
+outputItem: graphene/8
+research: plastanium-compressor

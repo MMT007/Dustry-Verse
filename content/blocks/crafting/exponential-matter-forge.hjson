@@ -1,0 +1,41 @@
+type: GenericCrafter
+name: Exponential Matter Forge
+description: A super powerful Forge. Makes the weird exponential matter out of endgame items.
+health: 1150
+size: 4
+hasPower: true
+hasItems: true
+hasLiquids: true
+craftTime: 300
+buildCostMultiplier: 3
+craftEffect: smeltsmoke
+updateEffect: steam
+updateEffectChance: 0.05
+consumes: {
+  power: 45
+  items: {
+    items: [
+      phase-fabric/3
+      surge-alloy/2
+      refined-alloy/5
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 2
+  }
+}
+
+requirements: [
+  lead/2000
+  copper/1400
+  refined-alloy/500
+  graphite/400
+  iron-ingot/275
+  invar/200
+  silicon/175
+  thorium/150
+]
+drawer: drawLiquid
+category: crafting
+outputItem: exponential-matter/3

@@ -1,0 +1,14 @@
+name: Large Exponential Matter wall
+description: a ridiculously tough wall. Can block lasers like the plastanium wall. 2x2.
+type: Wall
+size: 2
+health: 25600
+buildCostMultiplier: 2
+destructible: true
+insulated: true
+absorbLasers: true
+requirements: [
+	exponential-matter/36
+]
+category: defense
+research: exponential-matter-wall

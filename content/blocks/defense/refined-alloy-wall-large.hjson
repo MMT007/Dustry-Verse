@@ -1,0 +1,12 @@
+name: Large Refined Alloy wall
+description: A very tough and reliable wall. 2x2. 
+type: Wall
+health: 9000
+size: 2
+buildCostMultiplier: 2
+destructible: true
+requirements: [
+	refined-alloy/32
+]
+category: defense
+research: refined-alloy-wall

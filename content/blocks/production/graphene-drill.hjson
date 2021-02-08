@@ -1,0 +1,35 @@
+name: Graphene Drill
+description: A fast, sturdy, and very efficient drill. Recommended to use water to boost...
+type: Drill
+health: 850
+size: 2
+tier: 6
+drillTime: 45
+liquidBoostIntensity: 1.7
+hardnessDrillMultiplier: 6
+warmupSpeed: 0.125
+hasPower: true
+drillEffect: mine
+updateEffect: pulverizeSmall
+updateEffectChance: 0.01
+rotateSpeed: 4
+heatColor: e0f3ff
+itemCapacity: 40
+drawRim: true
+consumes: {
+  power: 8.5
+  liquid: {
+    liquid: water
+    amount: 0.075
+    booster: true
+	optional: true
+  }
+}
+requirements: [
+  graphene/200
+  silicon/125
+  graphite/75
+  thorium/65
+  iron-ingot/35
+]
+category: production

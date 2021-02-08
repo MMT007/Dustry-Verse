@@ -1,0 +1,6 @@
+name: "Iron"
+description: a sturdy and common metal in rock planet cores and crust. Needs to be refined to be used in alloys.
+hardness: 3
+cost: 1.2
+color: a8452d
+research: titanium

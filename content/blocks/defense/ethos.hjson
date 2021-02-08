@@ -1,0 +1,83 @@
+type: ItemTurret
+health: 2680
+size: 3
+range: 280
+coolantMultiplier: 2
+shootShake: 0.25
+shootSound: shootBig
+restitution: 0.12
+shootCone: 24
+inaccuracy: 2
+reloadTime: 9
+alternate: true
+recoilAmount: 2
+name: Ethos
+description: Shoots enemies from afar with piercing bullets.
+ammoTypes: {
+  titanium: {
+    type: BasicBulletType
+    width: 9
+    height: 13
+    lifetime: 45
+    speed: 8
+    damage: 22
+    pierce: true
+    ammoMultiplier: 3
+    frontColor: d0d0d1
+    backColor: 88888d
+  }
+  nickel: {
+    type: BasicBulletType
+    width: 10
+    height: 15
+    lifetime: 75
+    speed: 6
+    damage: 28
+    pierce: true
+    ammoMultiplier: 4
+    frontColor: 8686bc
+    backColor: 5b5b8d
+  }
+  steel: {
+    type: BasicBulletType
+    width: 11
+    height: 16
+    lifetime: 50
+    speed: 7
+    damage: 32
+    pierce: true
+    ammoMultiplier: 5
+    frontColor: b1b18e
+    backColor: a89286
+  }
+  invar: {
+    type: BasicBulletType
+    width: 12
+    height: 17
+    lifetime: 45
+    speed: 9
+    damage: 42
+    pierce: true
+    ammoMultiplier: 6
+    frontColor: b8ac97
+    backColor: 91805f
+  }
+}
+requirements: [
+copper/600
+lead/500
+graphite/300
+iron-ingot/250
+invar/250
+refined-alloy/125
+] 
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.5
+    optional: true
+    booster: true
+  }
+} 
+category: turret
+research: spectre

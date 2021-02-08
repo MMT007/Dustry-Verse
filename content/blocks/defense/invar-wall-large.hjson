@@ -1,0 +1,12 @@
+name: Large Invar wall
+description: A tough wall with more health than surge. 2x2.
+type: Wall
+size: 2
+health: 4000
+buildCostMultiplier: 2
+destructible: true
+requirements: [
+	invar/32
+]
+category: defense
+research: invar-wall

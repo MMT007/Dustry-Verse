@@ -1,0 +1,5 @@
+name: "Silicon scrap"
+description: scrap in form of silicon.
+cost: 1
+alwaysUnlocked: true
+hardness: 3

@@ -1,0 +1,47 @@
+type: LaserTurret
+name: Hearter
+description: "[orange]Shots a Laser Beam that melts the enemy[]"
+size: 2
+health: 1250
+firingMoveFract: 0.25
+shootDuration: 100
+coolantMultiplier: 1.25
+powerUse: 10
+buildCostMultiplier: 0.25
+liquidCapacity: 500.0
+range: 75.0
+breakable: true
+reloadTime: 45
+hasColor: true
+shootSound: laserbig
+destructible: true
+hasPower: true
+hasLiquids: true
+mapColor: 505050
+shootType: {
+	type: ContinuousLaserBulletType
+	colors: [
+	d1ad0d,
+	fff6cf
+]
+	damage: 6
+	length: 75
+	width: 3
+	hitEffect: hitMeltdown
+	drawSize: 75
+	incendChance: 0.25
+	incendSpread: 4.5
+	incendAmount: 1
+}
+
+requirements: [
+	lead/1250
+	steel/125
+	surge-alloy/125
+	iron-ingot/150
+	metaglass/125
+	invar/250
+]
+
+category: turret
+research: foreshadow

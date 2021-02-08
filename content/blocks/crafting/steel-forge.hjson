@@ -1,0 +1,31 @@
+type: GenericSmelter
+name: Steel forge
+description: A modified kiln to make steel.
+itemCapacity: 20
+health: 250
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 60
+buildCostMultiplier: 0.75
+craftEffect: smeltsmoke
+updateEffect: fuelburn
+updateEffectChance: 0.02
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      coal/1
+      iron/3
+    ]
+    }
+  }
+requirements: [
+  lead/60
+  copper/75
+  graphite/30
+  silicon/15
+]
+category: crafting
+outputItem: steel/2
+research: kiln

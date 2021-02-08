@@ -1,0 +1,36 @@
+type: GenericSmelter
+name: Refined Alloy smelter
+description: An even bigger version of the invar smelter. Smelts other alloys with thorium to make a batch of very tough refined alloy.
+itemCapacity: 60
+health: 950
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 220
+buildCostMultiplier: 0.75
+craftEffect: smeltsmoke
+updateEffect: steam
+updateEffectChance: 0.05
+consumes: {
+  power: 3
+  items: {
+    items: [
+      steel/3
+      invar/2
+      thorium/5
+    ]
+  }
+}
+
+requirements: [
+  lead/350
+  copper/325
+  graphite/215
+  iron-ingot/175
+  invar/150
+  silicon/125
+  thorium/100
+]
+category: crafting
+outputItem: refined-alloy/5
+research: invar-smelter

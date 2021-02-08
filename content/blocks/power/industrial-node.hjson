@@ -1,0 +1,18 @@
+name: "[#6b719e]Industrial Node"
+description: "[#6b719e] A durable and reliable node."
+type: PowerNode
+health: 700
+size: 1
+laserRange: 12.5
+buildCostMultiplier: 1.25
+maxNodes: 35
+requirements: [
+  graphene/20
+  copper/8
+  lead/25
+  silicon/8
+  steel/6
+  thorium/4
+]
+category: power
+research: power-node-large

@@ -1,0 +1,5 @@
+name: "Steel"
+description: A basic alloy present in almost any advanced machinery.
+cost: 1.7
+color: afa995
+research: iron

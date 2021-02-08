@@ -1,0 +1,6 @@
+name: "Exponential Alloy"
+description: The ultimate alloy. very unstable.
+cost: 5
+alwaysUnlocked: false
+radioactivity: 9
+research: exponential-matter

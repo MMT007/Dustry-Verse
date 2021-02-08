@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Silicon Pulverizer
+description: pulverizes silicon scrap and remelts them to make silicon.
+size: 1
+health: 50
+hasPower: true
+hasItems: true
+craftTime: 15
+buildCostMultiplier: 0.75
+craftEffect: pulverizeSmall
+consumes: {
+  power: 3
+  items: {
+    items: [
+      silicon-scrap/2
+    ]
+  }
+}
+requirements: [
+  lead/65
+  copper/95
+  graphite/25
+]
+category: crafting
+outputItem: silicon/1
+research: silicon-smelter

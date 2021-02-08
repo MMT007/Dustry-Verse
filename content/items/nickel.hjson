@@ -1,0 +1,6 @@
+name: "Nickel"
+description: A hard and relatively common metal in core of planets. Rarer than iron in terms of crust ores. Used for alloys and building.
+hardness: 4
+cost: 1.5
+color: c3c3c3
+research: thorium

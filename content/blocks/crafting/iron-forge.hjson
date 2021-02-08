@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: Iron Forge
+description: smelts raw iron to make refined iron ingots.
+itemCapacity: 20
+health: 500
+size:2
+hasPower: true
+hasItems: true
+craftTime: 45
+buildCostMultiplier: 0.75
+craftEffect: steam
+updateEffect: pulverize
+updateEffectChance: 0.05
+consumes: {
+  power: 1.2
+  items: {
+    items: [
+      iron/2
+    ]
+  }
+}
+requirements: [
+  copper/65
+  lead/75
+  graphite/25
+]
+category: crafting
+outputItem: iron-ingot/1
+research: kiln

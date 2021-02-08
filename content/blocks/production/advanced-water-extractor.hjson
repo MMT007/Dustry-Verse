@@ -1,0 +1,26 @@
+name: Advanced Water Extractor
+description: "Bigger version of the water Extractor. Has much more pumping force. "
+type: SolidPump
+itemCapacity: 10
+health: 1800
+size: 3
+liquidCapacity: 144
+baseExplosiveness: 25
+rotateSpeed: 4.5
+hasPower: true
+updateEffect: wet
+updateEffectChance: 0.0625
+pumpAmount: 0.8
+attribute: water
+result: water
+consumes: {
+  power:5
+}
+requirements: [
+  silicon/200
+  thorium/150
+  graphene/120
+  surge-alloy/75
+]
+category: production
+research: water-extractor

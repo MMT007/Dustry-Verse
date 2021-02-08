@@ -1,0 +1,4 @@
+type: OreBlock
+itemDrop: silicon-scrap
+oreScale: 20
+oreThreshold: 0.86

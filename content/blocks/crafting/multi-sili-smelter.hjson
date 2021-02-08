@@ -1,0 +1,35 @@
+type: GenericSmelter
+name: Multi-Silicon Smelter
+description: An e x t e n d e d version of the silicon smelter. Makes silicon as a pace near the crucible.
+itemCapacity: 63
+liquidCapacity: 90
+health: 350
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 90
+updateEffect: smeltsmoke
+updateEffectChance: 0.1
+consumes: {
+  power: 4
+  items: {
+    items: [
+      coal/3
+      sand/5
+    ]
+  }
+}
+requirements: [
+  copper/175
+  lead/175
+  graphite/75
+  steel/75
+]
+category: crafting
+research: silicon-smelter
+activeSound: respawning
+activeSoundVolume: 0.95
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: silicon/7

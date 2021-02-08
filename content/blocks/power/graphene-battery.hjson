@@ -1,0 +1,18 @@
+name: "[#6b719e]Graphene Battery"
+description: "[#6b719e] A durable battery that has the true power of graphene."
+type: Battery 
+health: 3160
+size: 2
+buildCostMultiplier: 10
+consumes: {
+	powerBuffered: 2400000
+}
+requirements: [
+  graphene/40
+  copper/16
+  lead/80
+  silicon/16
+  thorium/8
+]
+category: power
+research: battery-large

@@ -1,0 +1,12 @@
+name: Large Steel wall
+description: A good wall for early-game. 2x2.
+type: Wall
+health: 2500
+size: 2
+buildCostMultiplier: 2
+destructible: true
+requirements: [
+	steel/28
+]
+category: defense
+research: steel-wall

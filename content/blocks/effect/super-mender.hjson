@@ -1,0 +1,29 @@
+name: "Super Mender"
+type: MendProjector
+description: Basically a very good and green mender. Needs a great amount of power.
+size: 3
+itemCapacity: 100
+reload: 120
+range: 120
+healPercent: 15
+phaseBoost: 25
+phaseRangeBoost: 80
+useTime: 1200
+consumes: {
+  power: 15
+  items: {
+    items: [
+      refined-alloy/1
+    ]
+    booster: true
+    optional: true
+  }
+}
+category: effect
+requirements: [
+  invar/450
+  plastanium/100
+  titanium/250
+  silicon/300
+]
+research: mend-projector

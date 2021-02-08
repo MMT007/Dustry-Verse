@@ -1,0 +1,5 @@
+type: OreBlock
+itemDrop: nickel
+oreScale: 22
+oreThreshold: 0.85
+oreDefault: true

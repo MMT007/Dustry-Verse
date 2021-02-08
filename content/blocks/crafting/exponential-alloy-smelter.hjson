@@ -1,0 +1,34 @@
+type: GenericSmelter
+name: Exponential Alloy Smelter
+description: "Why would you make this thing? [red] Oh, I see."
+size: 4
+hasPower: true
+hasItems: true
+health: 1860
+craftTime: 18000
+buildCostMultiplier: 3
+craftEffect: smeltsmoke
+updateEffect: steam
+updateEffectChance: 0.05
+consumes: {
+  power: 1667
+  items: {
+    items: [
+      exponential-matter/5
+    ]
+  }
+}
+requirements: [
+  lead/4200
+  copper/3500
+  refined-alloy/2750
+  graphite/2500
+  iron-ingot/2150
+  invar/1750
+  silicon/1200
+  thorium/1050
+  titanium/800
+  phase-fabric/500
+]
+category: crafting
+outputItem: exponential-alloy/2
